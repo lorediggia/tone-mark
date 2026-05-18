@@ -7,7 +7,7 @@ use app::MarkApp;
 
 fn main() -> eframe::Result<()> {
     eframe::run_native(
-        "mark — BOSS Katana Studio",
+        "Tone Mark II",
         eframe::NativeOptions {
             viewport: eframe::egui::ViewportBuilder::default()
                 .with_inner_size([1100.0, 720.0])
