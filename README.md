@@ -3,7 +3,9 @@ An open-source patch editor and controller built in Rust, designed exclusively f
 
 ## ─── Installation ───
 
-### Prerequisites (Arch Linux)
+### Prerequisites 
+
+#### Arch Linux and derivatives
 
 ```bash
 sudo pacman -Syu base-devel git rustup
