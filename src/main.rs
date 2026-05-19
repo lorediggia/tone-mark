@@ -3,7 +3,7 @@ mod data;
 mod midi;
 mod ui;
 
-use app::MarkApp;
+use app::ToneApp;
 
 fn main() -> eframe::Result<()> {
     eframe::run_native(
@@ -14,6 +14,6 @@ fn main() -> eframe::Result<()> {
                 .with_min_inner_size([900.0, 600.0]),
             ..Default::default()
         },
-        Box::new(|cc| Box::new(MarkApp::new(cc))),
+        Box::new(|cc| Box::new(ToneApp::new(cc))),
     )
 }
