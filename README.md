@@ -15,8 +15,8 @@ rustup default stable
 ### Build from Source
 
 ```bash
-git clone https://github.com/lorediggia/Tone-Mark-II.git
-cd Tone-Mark-II
+git clone https://github.com/lorediggia/tone-mark.git
+cd tone-mark
 
 cargo build --release
 
